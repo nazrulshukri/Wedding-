@@ -20,7 +20,7 @@ section{text-align:center;padding:92px 48px;scroll-margin-top:10px;position:rela
 .monogram img{width:78%;height:78%;object-fit:contain}
 .eyebrow{font-size:9px;letter-spacing:3.4px;font-weight:600;text-transform:uppercase;margin-bottom:16px}
 h1,h2,h3{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;line-height:1.06}
-h1{font-size:clamp(32px,5.8vw,46px);max-width:540px;margin:8px 0 18px;color:#56442d;text-wrap:balance}
+h1{font-size:clamp(27px,4.8vw,38px);max-width:540px;margin:8px 0 18px;color:#56442d;text-wrap:balance}
 h1 span{display:block}
 h1 em{display:block;color:#d8bd88;font-size:.7em;font-weight:400;margin:8px;font-family:inherit}
 .jawi-name,.bride-jawi{font:500 clamp(23px,4vw,34px) 'Noto Naskh Arabic',serif;color:#896f44;margin:4px 0 12px;line-height:1.5}
@@ -125,6 +125,7 @@ nav small{display:block;font-size:7px;letter-spacing:1px;margin-top:5px}
 .envelope h2{font-size:53px;margin:15px 0 8px}
 .envelope h2 i{color:#6c816e}
 .envelope .couple{font:500 19px 'Cormorant Garamond',serif;line-height:1.3}
+.envelope .cover-jawi{font:500 clamp(31px,6vw,43px) 'Noto Naskh Arabic',serif;color:#29443a;line-height:1.45}
 .couple b{display:block;color:var(--gold);font-style:italic;font-size:24px}
 .tiny-rule{width:38px;height:1px;background:#b49b6a;margin:18px auto}
 .corner{position:absolute;font:92px Georgia,serif;color:#7f947e1e}
