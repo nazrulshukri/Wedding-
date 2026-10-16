@@ -87,9 +87,17 @@ textarea{resize:vertical}
 .formrow label{flex:1}
 form small{font-size:9px;display:block;color:#6c7669;line-height:1.6}
 form button{width:100%;margin-top:24px;border-radius:0}
-.wishes blockquote{background:#fff9;padding:25px;margin:14px 0;border:1px solid var(--line)}
-blockquote p{font:italic 18px 'Cormorant Garamond',serif}
-blockquote small{font-size:9px;letter-spacing:1px}
+.attendance-summary{background:linear-gradient(rgba(235,241,228,.9),rgba(223,235,213,.92)),url('/images/floral-stationery.jpg') center/cover!important}
+.attendance-grid{display:grid;grid-template-columns:1fr 1fr;max-width:430px;margin:22px auto 48px}
+.attendance-grid>div{padding:10px 20px}
+.attendance-grid>div+div{border-left:1px solid rgba(36,60,51,.22)}
+.attendance-grid strong{display:block;font:500 56px/1 'Cormorant Garamond',serif;color:#6b573c}
+.attendance-grid span{display:block;font:500 15px 'Cormorant Garamond',serif;color:#6b573c;margin-top:8px}
+.attendance-summary h2{font-size:38px;margin-bottom:22px}
+.wish-feed{max-width:500px;margin:auto}
+.wishes blockquote{background:rgba(255,255,255,.42);padding:20px 24px;margin:14px 0;border:1px solid rgba(111,139,101,.28);border-radius:16px}
+blockquote p{font:italic 18px 'Cormorant Garamond',serif;margin:0 0 8px}
+blockquote small{font-size:10px;letter-spacing:1px;font-weight:600}
 .status{padding:0 30px;text-align:center;color:#775d3d}
 footer{text-align:center;font-size:8px;letter-spacing:2.5px;padding:55px 25px 120px;color:#6c786d}
 footer span{color:var(--gold);font-size:14px}
