@@ -122,7 +122,7 @@ nav small{display:block;font-size:7px;letter-spacing:1px;margin-top:5px}
 .door-left{left:0;background-position:left center;transform-origin:left center;border:1px solid #b99b675c;border-right:0}
 .door-right{right:0;background-position:right center;transform-origin:right center;border:1px solid #b99b675c;border-left:0}
 .door-right:after{background:linear-gradient(-90deg,transparent 72%,rgba(72,52,28,.22))}
-.envelope{position:relative;z-index:3;text-align:center;padding:80px 48px 64px;border:1px solid #b99b675c;width:100%;height:100%;background:transparent;overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;transition:opacity .42s ease,transform .5s cubic-bezier(.2,.7,.2,1)}
+.envelope{position:relative;z-index:3;text-align:center;padding:72px 48px 122px;border:1px solid #b99b675c;width:100%;height:100%;background:transparent;overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;transition:opacity .42s ease,transform .5s cubic-bezier(.2,.7,.2,1)}
 .envelope>*{position:relative;z-index:4}
 .envelope:after{content:"";position:absolute;inset:14px;border:1px solid #b899635c;pointer-events:none}
 .envelope h2{font-size:53px;margin:15px 0 8px}
@@ -179,7 +179,7 @@ header{padding:0 76px 0 15px;gap:7px}
 .back-link{padding:7px 9px;gap:5px;font-size:6px;letter-spacing:1.2px}
 .back-arrow{font-size:13px}
 .edition{font-size:5px;letter-spacing:1.35px}
-.envelope{padding:58px 28px 44px}
+.envelope{padding:52px 28px 94px}
 .envelope h2{font-size:46px}
 .formrow{display:block}
 .music{right:12px;top:14px;width:50px;height:50px}
