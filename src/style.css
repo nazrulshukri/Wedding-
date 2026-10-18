@@ -76,6 +76,7 @@ button:disabled{opacity:.45;cursor:not-allowed}
 .contact-row>div>span{display:block;font-size:11px;letter-spacing:.08em}
 .contact-actions{display:flex;gap:12px;flex-shrink:0}
 .contact-actions a{width:54px;height:54px;border:1px solid rgba(255,255,255,.72);border-radius:50%;display:grid;place-items:center;color:#fff;text-decoration:none;font-size:21px;line-height:1}
+.whatsapp-icon{width:23px;height:23px;display:block;fill:currentColor}
 .contact-actions a small{display:none}
 .gallery{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 .gallery img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:160px 160px 4px 4px;box-shadow:0 15px 35px #263f3420}
