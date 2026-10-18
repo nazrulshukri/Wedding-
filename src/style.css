@@ -5,10 +5,12 @@ html{scroll-behavior:smooth}
 body{margin:0;background:#fbf6eb}
 body:before{display:none}
 main{max-width:720px;margin:auto;background:#fbf6eb;box-shadow:0 0 80px #9a7f4d1c;position:relative;overflow:hidden}
-header{height:78px;padding:0 34px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #745f3824;position:absolute;z-index:3;width:100%;color:#5d4c32}
-.brand{font-size:10px;letter-spacing:4px;text-decoration:none;color:inherit;font-weight:600}
-.brand span{color:#d4b77c}
-.edition{font-size:8px;letter-spacing:3px}
+header{height:78px;padding:0 104px 0 34px;display:flex;justify-content:space-between;align-items:center;gap:16px;border-bottom:1px solid #745f3824;position:absolute;z-index:3;width:100%;color:#5d4c32}
+.back-link{display:inline-flex;align-items:center;gap:8px;padding:8px 13px;border:1px solid #b4935e80;border-radius:999px;background:#fffaf0b8;box-shadow:0 6px 18px #765c3020;color:inherit;text-decoration:none;font-size:8px;letter-spacing:2px;font-weight:600;text-transform:uppercase;white-space:nowrap;backdrop-filter:blur(5px)}
+.back-link:hover{background:#fffdf7;border-color:#b4935e;transform:translateY(-1px)}
+.back-link i{color:var(--gold);font-style:normal}
+.back-arrow{font-size:15px;line-height:1}
+.edition{font-size:8px;letter-spacing:3px;white-space:nowrap;margin-left:auto}
 section{text-align:center;padding:92px 48px;scroll-margin-top:10px;position:relative}
 .hero{min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#57452e;background:linear-gradient(#fff8,#fff8),url('/images/floral-stationery.jpg') center/100% 100% no-repeat;isolation:isolate;padding:128px 72px 105px}
 .hero:before,.hero:after{content:"";position:absolute;inset:20px;border:1px solid #a488543e;z-index:-1}
@@ -75,8 +77,8 @@ button:disabled{opacity:.45;cursor:not-allowed}
 .contact-row>div>small{display:block;font-size:9px;font-style:italic;opacity:.8;margin:4px 0}
 .contact-row>div>span{display:block;font-size:11px;letter-spacing:.08em}
 .contact-actions{display:flex;gap:12px;flex-shrink:0}
-.contact-actions a{width:54px;height:54px;border:1px solid rgba(255,255,255,.72);border-radius:50%;display:grid;place-items:center;color:#fff;text-decoration:none;font-size:21px;line-height:1}
-.whatsapp-icon{width:23px;height:23px;display:block;fill:currentColor}
+.contact-actions a{width:54px;height:54px;border:1px solid rgba(255,255,255,.72);border-radius:50%;display:grid;place-items:center;color:#fff;-webkit-text-fill-color:#fff;text-decoration:none;font-size:21px;line-height:1}
+.contact-icon{width:23px;height:23px;display:block;fill:#fff;color:#fff}
 .contact-actions a small{display:none}
 .gallery{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 .gallery img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:160px 160px 4px 4px;box-shadow:0 15px 35px #263f3420}
@@ -173,17 +175,20 @@ main>section:not(.hero){padding-inline:34px}
 .bride-jawi{font-size:23px}
 .countdown strong{font-size:34px}
 .countdown div{padding:15px 4px}
-header{padding:0 24px}
-.edition{font-size:6px}
+header{padding:0 76px 0 15px;gap:7px}
+.back-link{padding:7px 9px;gap:5px;font-size:6px;letter-spacing:1.2px}
+.back-arrow{font-size:13px}
+.edition{font-size:5px;letter-spacing:1.35px}
 .envelope{padding:58px 28px 44px}
 .envelope h2{font-size:46px}
 .formrow{display:block}
-.music{right:16px;top:14px}
+.music{right:12px;top:14px;width:50px;height:50px}
 .venue-card{padding:40px 22px}
 .contact-card{padding:8px 17px;border-radius:19px}
 .contact-row strong{font-size:18px}
 .contact-actions{gap:8px}
 .contact-actions a{width:45px;height:45px;font-size:18px}
+.contact-icon{width:21px;height:21px}
 .parents-highlight{padding-inline:26px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}
